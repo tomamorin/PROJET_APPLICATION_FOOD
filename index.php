@@ -21,7 +21,7 @@
         <!-- Formulaire -->
         <form action="index.php" method="post">
 
-            <div class="block">
+            <div class="bloock">
                 <p>Code Postal :</p>
                 <input class="postal" type="text" name="postal">
                 <input class="valid" type="submit" value="COMMANDER">
