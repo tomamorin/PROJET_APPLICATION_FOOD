@@ -10,8 +10,12 @@
 </head>
 
 <body>
+<script>$(window).load(function(){ jQuery("loader").fadeOut(1.2000); });</script>
 
     <header></header>
+    <div class="loader">
+        <h1>VEUillEZ PATIENTE</h1>
+    </div>
     <h1>METTTEZ LES PETITS PLATS DANS LES GRANDS</h1>
 
         <!-- Formulaire -->
