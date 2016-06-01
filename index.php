@@ -22,8 +22,10 @@
 
             <div class="block">
                 <p>Code Postal :</p>
-                <input class="postal" type="text" name="postal">
-                <input class="valid" type="submit" value="COMMANDER">
+                <form name="form-code-postal" method="post" action="index2.php">
+                    <input class="postal" type="text" name="postal">
+                    <input class="valid" type="submit" value="COMMANDER">
+                </form>
             </div>
         </form>
 

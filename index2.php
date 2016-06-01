@@ -10,52 +10,15 @@
 </head>
 
 <body>
-
 <header></header>
-<h1 class="categorie">CHOISIR UN TYPE DE CUISINE</h1>
-<div class="categorie-cuisine">
-    <a href="#"></a>
-        <div class="categorie categorie-orientale">
-            <h3>Cuisine Orientale</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-chinoise">
-            <h3>Cuisine Chinoise</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-japonnaise">
-            <h3>Cuisine Japonnaise</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-americaine">
-            <h3>Cuisine Américaine</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-africaine">
-            <h3>Cuisine Africaine</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-indienne">
-            <h3>Cuisine Indienne</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-francaise">
-            <h3>Cuisine Française</h3>
-        </div>
-    </a>
-    <a href="#">
-        <div class="categorie-mer">
-            <h3>Cuisine de la mer</h3>
-        </div>
-    </a>
+<h1>METTTEZ LES PETITS PLATS DANS LES GRANDS</h1>
+<div class="verification">
+    <?php
+    $postal = $_POST['postal'];
+    echo "Nous sommes capable de vous livrer dans le".$postal.".";
+    ?>
 </div>
-
+<a href="categorie.php"><div class="valid">POURSUIVRE</div></a>
 
 <footer></footer>
 
@@ -67,3 +30,4 @@
 
 </body>
 </html>
+
