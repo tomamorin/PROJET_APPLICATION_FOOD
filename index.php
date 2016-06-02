@@ -17,10 +17,10 @@
     <header></header>
 
     <div class="loader">
-        <h1>VEUIllEZ PATIENTEZ</h1>
+        <h1>SAVEURS MYSTÈRES</h1>
     </div>
 
-    <h1>METTTEZ LES PETITS PLATS DANS LES GRANDS</h1>
+    <h1>METTRE LES PETITS PLATS DANS LES GRANDS</h1>
 
     <div class="block">
         <p>Code Postal :</p>

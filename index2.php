@@ -11,7 +11,7 @@
 
 <body>
 <header></header>
-<h1>METTTEZ LES PETITS PLATS DANS LES GRANDS</h1>
+<h1>METTRE LES PETITS PLATS DANS LES GRANDS</h1>
 <div class="verification">
     <?php
     $postal = $_POST['postal'];

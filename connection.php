@@ -10,7 +10,16 @@
 </head>
 <body>
 
+<h1>CONNECTION</h1>
 
+<div class="block">
+
+    <form name="form-code-postal" method="post" action="index2.php">
+        <input class="connection" type="text" name="id" placeholder="identifiant">
+        <input class="connection" type="text" name="password" placeholder="mot de passe">
+        <input class="valid" type="submit" name="valider" value="CONNECTION">
+    </form>
+</div>
 
 
 
