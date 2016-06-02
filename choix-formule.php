@@ -38,7 +38,7 @@ switch($page){
     case 'page3': include_once('formule3.php'); break;
     case 'page2': include_once('formule2.php'); break;
     case 'page1': include_once('formule1.php'); break;
-    default: include_once('choixformule.php'); break;
+    default: include_once('formule1.php'); break;
 }
 ?>
 

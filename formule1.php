@@ -15,32 +15,40 @@
 <header></header>
 
 <div class="center">
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>17€</p>
-    </div>
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>15€</p>
-    </div>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>17€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>15€</p>
+        </div>
+    </a>
 </div>
 <div class="center">
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>14€</p>
-    </div>
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>10€</p>
-    </div>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>14€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>10€</p>
+        </div>
+    </a>
 </div>
 
 

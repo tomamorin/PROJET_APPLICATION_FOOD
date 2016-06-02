@@ -15,12 +15,29 @@
 <div class="verification">
     <?php
     $postal = $_POST['postal'];
-    echo "Nous sommes capable de vous livrer dans le".$postal.".";
+    if (empty($postal)) {
+        echo "Vous n'avez pas renseigné le champ indiqué.";
+        echo "<a href=\"index.php\"><div class=\"retour\">RETOUR</div></a>";
+    } else {
+        if (is_numeric($postal)) {
+            echo "Il est possible de vous livrer dans le " . $postal . " .";
+            echo "<a href=\"categorie.php\"><div class=\"valid\">POURSUIVRE</div></a>";
+        } else {
+            echo "Votre code postal ne doit être composé uniquement de chiffres";
+            echo "<a href=\"index.php\"><div class=\"retour\">RETOUR</div></a>";
+        }
+    }
     ?>
 </div>
-<a href="categorie.php"><div class="valid">POURSUIVRE</div></a>
 
 <footer></footer>
+<!--<script>
+    $(document).ready(function() {
+        $("form-code-postal").on('submit', function(){
+            $(this).remove(); // Pour supprimer du DOM
+            });
+        });
+</script>-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

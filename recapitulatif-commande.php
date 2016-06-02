@@ -7,35 +7,26 @@
     <title>Titre</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="../medias/dw_viewport.js" type="text/javascript"></script>
 </head>
 
 <body>
 
-<script src="js/jquery-2.2.4.min.js"></script>
-<script>jQuery(window).load(function(){ jQuery(".loader").delay(4000).fadeOut(500); });</script>
+<header></header>
 
-    <header></header>
+<h1>Votre commande</h1>
 
-    <div class="loader">
-        <h1>VEUIllEZ PATIENTEZ</h1>
-    </div>
+<div class="recap-commande">
+    
+</div>
 
-    <h1>METTTEZ LES PETITS PLATS DANS LES GRANDS</h1>
-
-    <div class="block">
-        <p>Code Postal :</p>
-        <form name="form-code-postal" method="post" action="index2.php">
-            <input class="postal" type="text" name="postal" maxlength="5" minlength="5">
-            <input class="valid" type="submit" name="valider" value="COMMANDER">
-        </form>
-    </div>
-
-    <footer></footer>
+<footer></footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-2.2.4.min.js"></script>
 
 </body>
 </html>

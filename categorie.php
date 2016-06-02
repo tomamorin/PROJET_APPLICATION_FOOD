@@ -14,42 +14,42 @@
 <header></header>
 <h1 class="categorie">CHOISIR UN TYPE DE CUISINE</h1>
 <div class="categorie-cuisine">
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-orient">
             <h3>Cuisine Orientale</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-chinoise">
             <h3>Cuisine Chinoise</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-japonnaise">
             <h3>Cuisine Japonnaise</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-americaine">
             <h3>Cuisine Américaine</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-africaine">
             <h3>Cuisine Africaine</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-indienne">
             <h3>Cuisine Indienne</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-francaise">
             <h3>Cuisine Française</h3>
         </div>
     </a>
-    <a href="choixformule.php">
+    <a href="choix-formule.php">
         <div class="categorie-mer">
             <h3>Cuisine de la mer</h3>
         </div>
