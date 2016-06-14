@@ -17,7 +17,7 @@
     <header></header>
 
     <div class="loader">
-        <h1>SAVEURS MYSTÈRES</h1>
+        <img src="img/logo.png" alt="logo" class="logo">
     </div>
 
     <h1>METTRE LES PETITS PLATS DANS LES GRANDS</h1>

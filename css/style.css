@@ -273,13 +273,14 @@ a .categorie-mer {
 
 
 .loader{
-    background: url('../img/background-8.jpeg') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
+    background: url('../img/background1.jpeg') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
     height: 100%;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
+    background-size: cover;
 }
 .loader h1{
     background: none;
@@ -294,6 +295,12 @@ a .categorie-mer {
     margin: 0 0 10px;
     padding: 0;
     text-align: center;
+}
+.logo {
+    max-height: 90%;
+    max-width: 90%;
+    margin-top: 8em;
+    margin-left: 2em;
 }
 
 
