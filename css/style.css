@@ -358,8 +358,29 @@ select.select {
 
 
 .recap-commande {
-    background-color: black;
-    width: 70%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 75%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.ligne-tableau {
+    border-bottom: 1px solid white;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.ligne-tableau h5 {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-right: 25px;
+    padding-left: 8px;
+}
+
+h5.no-padding {
+    padding-right: 0px;
 }
 
 html { height: 100% }

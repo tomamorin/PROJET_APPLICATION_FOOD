@@ -1,3 +1,12 @@
+<?php
+// On démarre la session AVANT d'écrire du code HTML
+session_start();
+
+// On s'amuse à créer quelques variables de session dans $_SESSION
+$_SESSION['deuxpersonnes'] = 2;
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,19 +24,23 @@
 <header></header>
 
 <div class="center">
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>34€</p>
-    </div>
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>30€</p>
-    </div>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>34€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>30€</p>
+        </div>
+    </a>
 </div>
 <div class="center">
     <div class="cercle">

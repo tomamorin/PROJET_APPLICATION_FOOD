@@ -1,3 +1,10 @@
+<?php
+// On démarre la session AVANT d'écrire du code HTML
+session_start();
+
+// On s'amuse à créer quelques variables de session dans $_SESSION
+$_SESSION['oriental'] = 'cuisine oriental';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +21,7 @@
 <header></header>
 <h1 class="categorie">CHOISIR UN TYPE DE CUISINE</h1>
 <div class="categorie-cuisine">
-    <a href="choix-formule.php">
+    <a href="choix-formule.php?prenom=Jean">
         <div class="categorie-orient">
             <h3>Cuisine Orientale</h3>
         </div>

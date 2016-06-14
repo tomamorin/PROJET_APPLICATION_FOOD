@@ -1,3 +1,8 @@
+<?php
+// On démarre la session AVANT d'écrire du code HTML
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +22,13 @@
 <h1>Votre commande</h1>
 
 <div class="recap-commande">
-    
+    <div class="ligne-tableau">
+        <h5>Produit</h5>
+        <h5>Quantité</h5>
+        <h5 class="no-padding">Prix</h5>
+    </div>
+    <h1>Bonjour <?php echo $_GET['prenom']; ?> !</h1>
+    <h1>Bonjour <?php echo $_SESSION['oriental']; ?> !</h1>
 </div>
 
 <footer></footer>

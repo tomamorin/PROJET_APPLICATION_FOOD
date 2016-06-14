@@ -1,3 +1,8 @@
+<?php
+// On démarre la session AVANT d'écrire du code HTML
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +20,7 @@
 <header></header>
 
 <div class="center">
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?prenom=Jean&">
         <div class="cercle">
             <p>Entrée</p>
             <p>Plats</p>
