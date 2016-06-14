@@ -15,32 +15,40 @@
 <header></header>
 
 <div class="center">
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>51€</p>
-    </div>
-    <div class="cercle">
-        <p>Entrée</p>
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>45€</p>
-    </div>
+    <a href="recapitulatif-commande.php?qentrees=3&entree=Entrées&qplats=3&plat=Plats&qdesserts=3&dessert=Desserts&qboissons=3&boisson=Boissons&prix=51€">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>51€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php?qentrees=3&entree=Entrées&qplats=3&plat=Plats&qdesserts=0&dessert=Desserts&qboissons=3&boisson=Boissons&prix=45€">
+        <div class="cercle">
+            <p>Entrée</p>
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>45€</p>
+        </div>
+    </a>
 </div>
 <div class="center">
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>42€</p>
-    </div>
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>30€</p>
-    </div>
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrées&qplats=3&plat=Plats&qdesserts=3&dessert=Desserts&qboissons=3&boisson=Boissons&prix=42€">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>42€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrées&qplats=3&plat=Plats&qdesserts=0&dessert=Desserts&qboissons=3&boisson=Boissons&prix=30€">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>30€</p>
+        </div>
+    </a>
 </div>
 
 

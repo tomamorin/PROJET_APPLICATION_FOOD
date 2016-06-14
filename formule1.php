@@ -20,7 +20,7 @@ session_start();
 <header></header>
 
 <div class="center">
-    <a href="recapitulatif-commande.php?prenom=Jean&">
+    <a href="recapitulatif-commande.php?qentrees=1&entree=Entrée&qplats=1&plat=Plat&qdesserts=1&dessert=Dessert&qboissons=1&boisson=Boisson&prix=17€">
         <div class="cercle">
             <p>Entrée</p>
             <p>Plats</p>
@@ -29,7 +29,7 @@ session_start();
             <p>17€</p>
         </div>
     </a>
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?qentrees=1&entree=Entrée&qplats=1&plat=Plat&qdesserts=0&dessert=Dessert&qboissons=1&boisson=Boisson&prix=15€">
         <div class="cercle">
             <p>Entrée</p>
             <p>Plats</p>
@@ -39,7 +39,7 @@ session_start();
     </a>
 </div>
 <div class="center">
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrée&qplats=1&plat=Plat&qdesserts=1&dessert=Dessert&qboissons=1&boisson=Boisson&prix=14€">
         <div class="cercle">
             <p>Plats</p>
             <p>Desserts</p>
@@ -47,7 +47,7 @@ session_start();
             <p>14€</p>
         </div>
     </a>
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrée&qplats=1&plat=Plat&qdesserts=0&dessert=Dessert&qboissons=1&boisson=Boisson&prix=10€">
         <div class="cercle">
             <p>Plats</p>
             <p>Boissons</p>

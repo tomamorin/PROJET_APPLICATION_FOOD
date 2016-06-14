@@ -23,12 +23,30 @@ session_start();
 
 <div class="recap-commande">
     <div class="ligne-tableau">
-        <h5>Produit</h5>
-        <h5>Quantité</h5>
-        <h5 class="no-padding">Prix</h5>
+        <h5 class="produit">Quantité</h5>
+        <h5 class="quantite">Produit</h5>
+        <h5 class="no-padding prix">Prix</h5>
     </div>
-    <h1>Bonjour <?php echo $_GET['prenom']; ?> !</h1>
-    <h1>Bonjour <?php echo $_SESSION['oriental']; ?> !</h1>
+    <div class="resultat">
+        <h6 class="quantite"><?php echo $_GET['qentrees']; ?></h6>
+        <h6 class="type"><?php echo $_GET['entree']; ?></h6>
+    </div>
+    <div class="resultat">
+        <h6 class="quantite"><?php echo $_GET['qplats']; ?></h6>
+        <h6 class="type"><?php echo $_GET['plat']; ?></h6>
+    </div>
+    <div class="resultat">
+        <h6 class="quantite"><?php echo $_GET['qdesserts']; ?></h6>
+        <h6 class="type"><?php echo $_GET['dessert']; ?></h6>
+    </div>
+    <div class="resultat">
+        <h6 class="quantite"><?php echo $_GET['qboissons']; ?></h6>
+        <h6 class="type"><?php echo $_GET['boisson']; ?></h6>
+    </div>
+    <div class="resultat-prix">
+        <h6>TOTAL TTC</h6>
+        <h6><?php echo $_GET['prix']; ?></h6>
+    </div>
 </div>
 
 <footer></footer>

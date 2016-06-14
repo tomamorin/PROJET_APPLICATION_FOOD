@@ -25,6 +25,10 @@ a:visited, a:hover, a:focus, a:active {
     color: inherit;
 }
 
+a {
+    color: black;
+}
+
 
 /*  PAGE  ACCUEIL  */
 
@@ -197,7 +201,7 @@ a .categorie-japonnaise {
     height: 100px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-image: url("../img/background-2.jpeg");
+    background-image: url("../img/background-10%jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -332,7 +336,7 @@ select.select {
 }
 
 
-/*  PAGE FORMULE 1 2 3 4  */
+/*  PAGE FORMULE 1 10%3 4  */
 
 
 .center {
@@ -367,21 +371,48 @@ select.select {
 .ligne-tableau {
     border-bottom: 1px solid white;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
+    display: block;
+    text-align: center;
 }
 
 .ligne-tableau h5 {
     display: inline-block;
     color: white;
     font-size: 18px;
-    margin-top: 20px;
-    padding-right: 25px;
-    padding-left: 8px;
 }
 
-h5.no-padding {
-    padding-right: 0px;
+.ligne-tableau h5.produit {
+    padding-right: 10%;
+ }
+
+.ligne-tableau h5.prix {
+    padding-left: 10%;
 }
+
+.resultat h6 {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.resultat h6.quantite{
+    margin-left: 30%;
+}
+
+.resultat h6.type {
+    margin-left: 15%;
+}
+
+.resultat-prix {
+    color: white;
+    font-size: 20px;
+}
+
+.resultat-prix h6 {
+    display: inline-block;
+}
+
 
 html { height: 100% }
 body { height: 100%; margin: 0px; padding: 0px }

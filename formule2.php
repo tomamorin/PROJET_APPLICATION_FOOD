@@ -24,7 +24,7 @@ $_SESSION['deuxpersonnes'] = 2;
 <header></header>
 
 <div class="center">
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?qentrees=2&entree=Entrées&qplats=2&plat=Plats&qdesserts=2&dessert=Desserts&qboissons=2&boisson=Boissons&prix=34€">
         <div class="cercle">
             <p>Entrée</p>
             <p>Plats</p>
@@ -33,7 +33,7 @@ $_SESSION['deuxpersonnes'] = 2;
             <p>34€</p>
         </div>
     </a>
-    <a href="recapitulatif-commande.php">
+    <a href="recapitulatif-commande.php?qentrees=2&entree=Entrées&qplats=2&plat=Plats&qdesserts=0&dessert=Desserts&qboissons=2&boisson=Boissons&prix=30€">
         <div class="cercle">
             <p>Entrée</p>
             <p>Plats</p>
@@ -43,17 +43,21 @@ $_SESSION['deuxpersonnes'] = 2;
     </a>
 </div>
 <div class="center">
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Desserts</p>
-        <p>Boissons</p>
-        <p>28€</p>
-    </div>
-    <div class="cercle">
-        <p>Plats</p>
-        <p>Boissons</p>
-        <p>20€</p>
-    </div>
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrées&qplats=2&plat=Plats&qdesserts=2&dessert=Desserts&qboissons=2&boisson=Boissons&prix=28€">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Desserts</p>
+            <p>Boissons</p>
+            <p>28€</p>
+        </div>
+    </a>
+    <a href="recapitulatif-commande.php?qentrees=0&entree=Entrées&qplats=2&plat=Plats&qdesserts=0&dessert=Desserts&qboissons=2&boisson=Boissons&prix=20€">
+        <div class="cercle">
+            <p>Plats</p>
+            <p>Boissons</p>
+            <p>20€</p>
+        </div>
+    </a>
 </div>
 
 
