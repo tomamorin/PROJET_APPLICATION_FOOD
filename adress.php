@@ -12,7 +12,7 @@
 
 <div id="map_canvas"></div>
 <div id="back2">
-<h2>Adresse :</h2><p align="center" style="font-size: 20px;">158 promenade du Millénaire <br>92400 COURBEVOIE</p>
+<h2 class="titre">Adresse :</h2><p align="center" style="font-size: 20px;">12 Avenue Léonard de Vinci<br>92400 Courbevoie</p>
 </div>
 
 
