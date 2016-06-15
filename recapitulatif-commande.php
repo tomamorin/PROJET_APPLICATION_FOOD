@@ -43,12 +43,19 @@ session_start();
         <h6 class="quantite"><?php echo $_GET['qboissons']; ?></h6>
         <h6 class="type"><?php echo $_GET['boisson']; ?></h6>
     </div>
+    <div class="resultatarea" align="right">
+        <h6 class="whitext" align="left">Restrictions</h6>
+        <textarea name="restrictions" id="1" cols="20" rows="5"></textarea>
+        <h6 class="quantite" style="color: white!important;">Frais de gestion : 2€</h6>
+    </div>
     <div class="resultat-prix">
-        <h6>TOTAL TTC</h6>
-        <h6><?php echo $_GET['prix']; ?></h6>
+        <h4 class="center">TOTAL TTC : <?php echo $_GET['prix']; ?></h4>
+
     </div>
 </div>
-
+<form name="form-valid" method="post" action="inscription.php">
+<input align="center" class="valid2" type="submit" name="valider" value="VALIDER">
+</form>
 <footer></footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
