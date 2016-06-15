@@ -10,7 +10,9 @@
 </head>
 <body>
 
+<h1>Mode de Paiement</h1>
 <div class="verification">
+    <div class="paiement">
     <?php
     $pseudo = $_POST['pseudo'];
     $password = $_POST['password'];
@@ -19,13 +21,13 @@
         echo "<a href=\"register.php\"><div class=\"retour\">RETOUR</div></a>";
     } else {
         echo "Bienvenue " . $pseudo . ".";
-        echo "". $pseudo . "est maintenant connecté";
         echo "<form method=\"post\" action=\"adress.php\">
    <p>Veuillez indiquer votre mode de paiement<br />
-       <input type=\"radio\" name=\"card\" value=\"cartebleue\" id=\"moins15\" />
+       <input type=\"radio\" name=\"card\" value=\"carte bleue\" id=\"cartebleue\" />
        <label for=\"moins15\">Carte Bleue</label><br />
-       <input type=\"radio\" name=form\"age\" value=\"autre\" id=\"medium15-25\" />
-       <label for=\"medium15-25\">Autre mode de paiement</label><br />
+       <input type=\"radio\" name=\"card\" value=\"master card\" id=\"mastercard\" />
+       <label for=\"medium15-25\">Carte MasterCard</label><br />
+       </div>
        <input class=\"valid\" type=\"submit\" name=\"valider\" value=\"VALIDER\">
    </p>
 </form>";

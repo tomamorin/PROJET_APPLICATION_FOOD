@@ -12,9 +12,15 @@
 
 <div id="map_canvas"></div>
 <div id="back2">
+    <div style="color: black;padding-top: 10%;text-align: center">
+        <?php
+    $card = $_POST['card'];
+        echo "Vous avez choisi le paiement par " . $card . ".";
+    ?>
+        </div>
 <h2 class="titre">Adresse :</h2><p align="center" style="font-size: 20px;">12 Avenue Léonard de Vinci<br>92400 Courbevoie</p>
+    <a href="final.php"><div class="valid">VALIDER</div></a>
 </div>
-
 
 
 

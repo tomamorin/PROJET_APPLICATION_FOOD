@@ -17,6 +17,7 @@ body {
     background-attachment: fixed;
     min-height:18em!important;
     margin-top:-2em;
+    padding-bottom: 30px;
 }
 
 
@@ -214,7 +215,7 @@ a .categorie-japonnaise {
     height: 100px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-image: url("../img/background-10%jpeg");
+    background-image: url("../img/japan.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -274,7 +275,7 @@ a .categorie-mer {
     height: 100px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-image: url("../img/background-8.jpeg");
+    background-image: url("../img/mer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -444,6 +445,7 @@ body { height: 100%; margin: 0px; padding: 0px }
 
 .titre {
     padding-top:2em;
+    color: black;
 }
 .whitext {
     color: white;
@@ -476,4 +478,16 @@ p.form-inscrip {
 
 .lien-inscrip {
     color: white;
+}
+
+.lien-inscrip:hover {
+    color: white;
+}
+
+.paiement {
+    background: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    margin:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

@@ -13,7 +13,7 @@
 
 <header></header>
 
-<h1>METTRE LES PETITS PLATS DANS LES GRANDS</h1>
+<h1>METTEZ LES PETITS PLATS DANS LES GRANDS</h1>
 <div class="verification">
     <?php
     $name = $_POST['name'];
