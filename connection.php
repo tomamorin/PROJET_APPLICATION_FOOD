@@ -14,27 +14,14 @@
 
 <div class="block">
 
-    <form name="form-code-postal" method="post" action="index2.php">
-        <input class="connection" type="text" name="id" placeholder="identifiant">
-        <input class="connection" type="text" name="password" placeholder="mot de passe">
+    <form name="form-code-postal" method="post" action="paiement.php">
+        <p class="form-inscrip">Mot de passe :</p>
+        <input class="connection" type="text" name="pseudo" placeholder="identifiant">
+        <p class="form-inscrip">Mot de passe :</p>
+        <input class="connection" type="password" name="password" placeholder="mot de passe">
         <input class="valid" type="submit" name="valider" value="CONNECTION">
     </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

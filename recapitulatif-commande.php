@@ -53,7 +53,7 @@ session_start();
 
     </div>
 </div>
-<form name="form-valid" method="post" action="inscription.php">
+<form name="form-valid" method="post" action="register.php">
 <input align="center" class="valid2" type="submit" name="valider" value="VALIDER">
 </form>
 <footer></footer>
